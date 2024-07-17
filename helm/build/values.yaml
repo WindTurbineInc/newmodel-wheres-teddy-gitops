@@ -1,0 +1,15 @@
+app:
+  name: newmodel-wheres-teddy-app
+  namespace: newmodel
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/newmodel-wheres-teddy
+  org: WindTurbineInc
+  name: newmodel-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: newmodel/wheres-teddy-app
+  tag: latest
